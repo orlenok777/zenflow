@@ -1,0 +1,33 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full background for maskable icon -->
+  <rect width="512" height="512" fill="#064e3b"/>
+
+  <!-- Safe zone: content within 45px from edge (80px from center) for 512x512 -->
+  <!-- Lotus petals - scaled to fit safe zone -->
+  <!-- Top petal -->
+  <ellipse cx="256" cy="120" rx="40" ry="60" fill="#34d399" opacity="0.9"/>
+
+  <!-- Top right petal -->
+  <ellipse cx="256" cy="120" rx="40" ry="60" fill="#34d399" opacity="0.9" transform="rotate(72 256 256)"/>
+
+  <!-- Bottom right petal -->
+  <ellipse cx="256" cy="120" rx="40" ry="60" fill="#34d399" opacity="0.9" transform="rotate(144 256 256)"/>
+
+  <!-- Bottom left petal -->
+  <ellipse cx="256" cy="120" rx="40" ry="60" fill="#34d399" opacity="0.9" transform="rotate(216 256 256)"/>
+
+  <!-- Top left petal -->
+  <ellipse cx="256" cy="120" rx="40" ry="60" fill="#34d399" opacity="0.9" transform="rotate(288 256 256)"/>
+
+  <!-- Center circle -->
+  <circle cx="256" cy="256" r="72" fill="#34d399"/>
+
+  <!-- Inner circle for depth -->
+  <circle cx="256" cy="256" r="58" fill="#064e3b"/>
+
+  <!-- Zen circle (enso) - partial circle with thicker stroke -->
+  <path d="M 256 198 A 58 58 0 1 1 255 198" stroke="#34d399" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="8" fill="#34d399"/>
+</svg>
