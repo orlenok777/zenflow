@@ -1,0 +1,32 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark green background with rounded corners -->
+  <rect width="512" height="512" fill="#064e3b" rx="120"/>
+
+  <!-- Lotus petals - 5 petals arranged in a circle -->
+  <!-- Top petal -->
+  <ellipse cx="256" cy="100" rx="50" ry="75" fill="#34d399" opacity="0.9"/>
+
+  <!-- Top right petal -->
+  <ellipse cx="256" cy="100" rx="50" ry="75" fill="#34d399" opacity="0.9" transform="rotate(72 256 256)"/>
+
+  <!-- Bottom right petal -->
+  <ellipse cx="256" cy="100" rx="50" ry="75" fill="#34d399" opacity="0.9" transform="rotate(144 256 256)"/>
+
+  <!-- Bottom left petal -->
+  <ellipse cx="256" cy="100" rx="50" ry="75" fill="#34d399" opacity="0.9" transform="rotate(216 256 256)"/>
+
+  <!-- Top left petal -->
+  <ellipse cx="256" cy="100" rx="50" ry="75" fill="#34d399" opacity="0.9" transform="rotate(288 256 256)"/>
+
+  <!-- Center circle -->
+  <circle cx="256" cy="256" r="85" fill="#34d399"/>
+
+  <!-- Inner circle for depth -->
+  <circle cx="256" cy="256" r="70" fill="#064e3b"/>
+
+  <!-- Zen circle (enso) - partial circle -->
+  <path d="M 256 186 A 70 70 0 1 1 255 186" stroke="#34d399" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="10" fill="#34d399"/>
+</svg>
